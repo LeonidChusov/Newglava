@@ -1,8 +1,14 @@
 <resources>
     <string name="app_name">Glava1</string>
-    <string name="question_text">Canberra is the capital of Australia.</string>
+    <string name="question_text">Нравиться?</string>
     <string name="true_button">True</string>
     <string name="false_button">False</string>
     <string name="correct_toast">Correct!</string>
     <string name="incorrect_toast">Incorrect!</string>
+    <string name="next_button">next</string>
+    <string name="One">Правда ли что Алишер умный?</string>
+    <string name="Two">Правда ли что Юра сильный?</string>
+    <string name="Three">Правда ли что Дима злой?</string>
+    <string name="Four">Правда ли что Дима злой?</string>
+
 </resources>

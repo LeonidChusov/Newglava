@@ -11,7 +11,14 @@ import android.widget.Toast
 class MainActivity : AppCompatActivity() {
     private  lateinit var trueButton: Button
     private  lateinit var falseButton: Button
+    private val questionBank = listOf(
+        Question(R.string.One, true),
+        Question(R.string.Two, true),
+        Question(R.string.Three, true),
+        Question(R.string.Four, true))
+    private  var currentIndex = 0
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         trueButton = findViewById(R.id.true_button)
